@@ -1,0 +1,119 @@
+
+body{
+  width: 100%;
+  background-image:url(./assests/images/929192.webp);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+
+  }
+ 
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto
+  }
+  .icon{
+    width:200px;
+    float:left;
+    height:70px;
+  }
+.logo{
+  color:lavender;
+  font-size: 25px;
+  font-family: arial;
+  padding-left: 20px;
+  padding-top:10 px;
+}
+.content{
+  display:flex;
+  width:1200px ;
+  height: auto;
+  margin: auto;
+  color: white;
+}
+
+.menu{
+  width:400px;
+  float:left;
+  height:70px
+  }
+ul{
+  float:left;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+ul li{
+  display:flex;
+  list-style:none;
+  margin-left:52px;
+  margin-top:23px;
+  font-size: 14;
+}
+
+ul li a{
+  text-decoration:none;
+  color:white;
+  font-family: arial;
+  font-weight:bold;
+  transition:0.4 ease-in-out;
+}
+ul li a:hover{
+  color: orange
+}
+
+.search{
+  width:330px;
+  float:left;
+  margin-left:270px;
+}
+
+.srch{
+  font-family:'Time New Roman';
+  width:200px;
+  height:40px;
+  background:transparent;
+  border:1px solid orange;
+  margin:13px;
+  color: pink;
+  border-right:none;
+  font-size: 16px;
+  float:left;
+  padding: 10px;
+  border-top-left-radius:5px;
+  border-top-left-radius:5px;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  background: orange;
+  border: 2px orange;
+  margin-top:13px;
+  color:white ;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.btn:focus{
+  outline:none;
+}
+.srch:focus{
+  outline:auto
+}
+
+.content{
+  width:1200px ;
+  display:flex;
+  height: auto;
+  margin: auto;
+  position: relative;
+}
+.content.cn{
+  width: 160px;
+  height: 40px;
+  background: orange;
+  border:none ;
+}
